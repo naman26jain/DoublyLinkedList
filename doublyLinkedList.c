@@ -22,14 +22,14 @@ int choice =0;
     while(choice != 9)  
     {  
         printf("***menu***\n");
-        printf("1.)insert at beginning\n");
-        printf("2.)insert at last\n");
-        printf("3.)insert at position\n");
-        printf("4.)delete at beginning\n");
-        printf("5.)delete at last\n");
-        printf("6.)delete at position\n");
-        printf("7.)display the list\n");
-        printf("8.)exit\n");
+        printf("1.) insert at beginning\n");
+        printf("2.) insert at last\n");
+        printf("3.) insert at position\n");
+        printf("4.) delete at beginning\n");
+        printf("5.) delete at last\n");
+        printf("6.) delete at position\n");
+        printf("7.) display the list\n");
+        printf("8.) exit\n");
         printf("\nEnter your choice?\n");  
         scanf("\n%d",&choice);  
         switch(choice)  
